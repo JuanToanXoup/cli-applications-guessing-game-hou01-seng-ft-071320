@@ -13,4 +13,3 @@ user_num = input.to_i
     end
 end
 
-binding.pry
