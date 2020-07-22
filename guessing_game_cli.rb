@@ -2,6 +2,7 @@
 require 'pry'
 def run_guessing_game
 rand_num = rand(6)+1
+binding.pry
 input = gets.to_s.chomp
 user_num = input.to_i
     if rand_num == user_num
