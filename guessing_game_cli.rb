@@ -13,3 +13,5 @@ user_num = input.to_i
         puts "Sorry! The computer guessed #{rand_num}."
     end
 end
+
+run_guessing_game
